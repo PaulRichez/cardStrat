@@ -20,6 +20,7 @@ export class SidebarLeftComponent implements OnInit {
   }
 
   items: NbMenuItem[] = [
+    { title: 'Add user', data: 'AddUser' },
     { title: 'Remove all users', data: 'RemoveUsers' },
     { title: 'Reset basic users', data: 'ResetBasicUsers' },
   ];
